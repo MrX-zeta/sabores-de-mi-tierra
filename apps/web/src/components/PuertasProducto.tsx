@@ -40,7 +40,7 @@ export default function PuertasProducto() {
         <div className="explora-head">
           <p className="eyebrow eyebrow-c reveal">Asómate a la tienda</p>
           <h2 className="reveal" data-delay="1">
-            Abre las puertas, <em>mira lo que hay</em>
+            Lo que hay <em>detrás de estas puertas</em>
           </h2>
           <p className="lead reveal" data-delay="2">
             Semillas, lácteos y dulces: esto es lo que encuentras al entrar.
