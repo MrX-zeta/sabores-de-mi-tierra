@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Espiga } from "@/components/Espiga";
 
 export const metadata: Metadata = {
   title: "Por qué elegirnos",
-  description: "Selección artesanal, trato directo, origen regional y precio de barrio.",
+  description: "Productos escogidos, atención de los propietarios y todo fresco.",
 };
 
 const razones = [
   {
-    titulo: "Selección artesanal",
+    icono: "#ico-semillas",
+    titulo: "Productos escogidos",
     texto: (
       <>
         Cada semilla, queso y dulce pasa por las manos de los propietarios antes de llegar al mostrador.{" "}
@@ -17,6 +17,7 @@ const razones = [
     ),
   },
   {
+    icono: "#ico-trato",
     titulo: "Trato directo",
     texto: (
       <>
@@ -26,7 +27,8 @@ const razones = [
     ),
   },
   {
-    titulo: "Origen regional",
+    icono: "#ico-origen",
+    titulo: "Hecho aquí cerca",
     texto: (
       <>
         Buena parte de lo que vendemos se produce aquí cerca:{" "}
@@ -35,11 +37,12 @@ const razones = [
     ),
   },
   {
-    titulo: "Precio de barrio",
+    icono: "#ico-fresco",
+    titulo: "Todo fresco",
     texto: (
       <>
-        Calidad cuidada sin precios de zona turística:{" "}
-        <strong>estamos en el Santuario, no en el centro histórico</strong>, y eso se nota en tu bolsillo.
+        Semillas y quesos que se venden rápido y se reponen seguido:{" "}
+        <strong>lo que te llevas no lleva meses en un anaquel.</strong>
       </>
     ),
   },
@@ -50,12 +53,12 @@ export default function Porque() {
     <div className="v-porque">
       <section className="page-hero">
         <div className="wrap">
-          <p className="eyebrow eyebrow-c hero-anim d2">Por qué elegirnos</p>
+          <p className="eyebrow eyebrow-c hero-anim d2">Nuestras razones</p>
           <h1 className="hero-anim d3">
-            Pequeños por decisión, <em>cuidadosos por costumbre</em>
+            Cuatro razones <em>para comprar aquí</em>
           </h1>
           <p className="lead hero-anim d4" style={{ marginInline: "auto" }}>
-            Cuatro razones anotadas como en la libreta del mostrador.
+            Las mismas que te darían nuestros clientes.
           </p>
         </div>
       </section>
@@ -63,12 +66,14 @@ export default function Porque() {
       <div className="wrap libreta">
         {razones.map((r, i) => (
           <div key={r.titulo} className="renglon reveal" data-delay={Math.min(i + 1, 4)}>
-            <span className="renglon-marca"><Espiga /></span>
+            <span className="renglon-marca">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><use href={r.icono} /></svg>
+            </span>
             <h3>{r.titulo}</h3>
             <p>{r.texto}</p>
           </div>
         ))}
-        <p className="libreta-cierre reveal">La cuenta sale sencilla: mejor producto, mejor trato, mejor precio.</p>
+        <p className="libreta-cierre reveal">Ven a la tienda o mándanos un WhatsApp, y compruébalo.</p>
       </div>
     </div>
   );
