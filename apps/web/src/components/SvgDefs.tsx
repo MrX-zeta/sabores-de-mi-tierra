@@ -59,6 +59,13 @@ export default function SvgDefs() {
             <path d="M20 18.5 C 18 22, 18 26, 20 29.5 M27.5 18.5 C 29.5 22, 29.5 26, 27.5 29.5" strokeLinecap="round" />
           </g>
         </symbol>
+        <symbol id="ico-flecha" viewBox="0 0 34 12">
+          <g fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M6 6 H29" />
+            <path d="M24 1.8 L29.5 6 L24 10.2" />
+            <path d="M6 6 C 2.8 6, 2 3.2, 4.2 2.6 C 6 2.2, 6.4 4.6, 4.6 4.8" />
+          </g>
+        </symbol>
         <symbol id="ico-especias" viewBox="0 0 48 48">
           <g fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M18 10 h12 v4 h-12 z" />

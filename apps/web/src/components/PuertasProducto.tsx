@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Espiga } from "./Espiga";
+import { Espiga, IconFlecha } from "./Espiga";
 
 type Puerta = {
   letrero: string;
@@ -67,7 +67,7 @@ export default function PuertasProducto() {
                 <span className="puerta-hoja der" />
               </span>
               <p className="puerta-nota">{p.nota}</p>
-              <span className="puerta-cta">Ver en la tienda</span>
+              <span className="puerta-cta">Ver en la tienda <IconFlecha className="flecha" /></span>
             </Link>
           ))}
         </div>

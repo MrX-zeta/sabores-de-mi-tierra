@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Espiga } from "./Espiga";
+import { Espiga, IconFlecha } from "./Espiga";
 
 const enlaces = [
   { href: "/nosotros", label: "Quiénes somos" },
@@ -14,7 +14,7 @@ export default function CasaLinks() {
         <div className="casa-links-int reveal">
           {enlaces.map((e) => (
             <Link key={e.href} className="casa-link" href={e.href}>
-              <Espiga /> {e.label}
+              <Espiga /> {e.label} <IconFlecha className="flecha" />
             </Link>
           ))}
         </div>

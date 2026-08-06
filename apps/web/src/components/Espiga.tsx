@@ -14,6 +14,14 @@ export function Voluta({ className }: { className?: string }) {
   );
 }
 
+export function IconFlecha({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 34 12" className={className} aria-hidden="true">
+      <use href="#ico-flecha" />
+    </svg>
+  );
+}
+
 export function IconWa({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" className={className} aria-hidden="true">
