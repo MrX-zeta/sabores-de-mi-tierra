@@ -55,6 +55,53 @@ export default function Contacto() {
             {site.location.city} · {site.location.state} · {site.location.country}
           </span>
         </div>
+        <section className="faq reveal" data-delay="4" aria-label="Preguntas frecuentes">
+          <h2 className="faq-titulo">Preguntas <em>frecuentes</em></h2>
+          <div className="faq-grid">
+          <div className="faq-col">
+          <details className="faq-item">
+            <summary>¿Cómo hago un pedido?</summary>
+            <p>
+              Por ahora, de dos formas: escribiéndonos por WhatsApp para apartar lo que necesites, o visitándonos
+              directamente en la tienda, en el barrio del Santuario.
+            </p>
+          </details>
+          <details className="faq-item">
+            <summary>¿Venden a granel?</summary>
+            <p>Sí: semillas, granos y especias se miden a tu gusto, sin empaques de más.</p>
+          </details>
+          <details className="faq-item">
+            <summary>¿Dónde están exactamente?</summary>
+            <p>
+              {/* TODO: dirección exacta pendiente de confirmar con los propietarios */}
+              En el barrio del Santuario, en San Cristóbal de las Casas. Escríbenos por WhatsApp y te compartimos la
+              ubicación exacta.
+            </p>
+          </details>
+          </div>
+          <div className="faq-col">
+          <details className="faq-item">
+            <summary>¿Cuál es el horario?</summary>
+            <p>Abrimos de lunes a sábado, de 10 de la mañana a 8 de la noche.</p>
+          </details>
+          <details className="faq-item">
+            <summary>¿Aceptan pagos con tarjeta?</summary>
+            <p>Por el momento solo manejamos efectivo.</p>
+          </details>
+          <details className="faq-item">
+            <summary>¿Hacen entregas a domicilio?</summary>
+            <p>Aún no: hoy tu pedido te espera en la tienda. Pero viene en camino junto con la venta en línea…</p>
+          </details>
+          <details className="faq-item">
+            <summary>¿Puedo comprar en línea?</summary>
+            <p>
+              Todavía no… pero algo se está cocinando en el mostrador. Muy pronto podrás hacer tu pedido desde donde
+              estés — mientras tanto, WhatsApp es el camino directo.
+            </p>
+          </details>
+          </div>
+          </div>
+        </section>
         <p className="contacto-nota reveal" data-delay="4">Te esperamos con las puertas blancas abiertas.</p>
       </div>
     </div>
