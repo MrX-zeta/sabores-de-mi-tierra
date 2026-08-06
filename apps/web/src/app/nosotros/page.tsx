@@ -40,7 +40,7 @@ export default function Nosotros() {
               </p>
               <p>
                 Aquí no hay anaqueles infinitos ni prisa. Hay semillas a granel, lácteos frescos de la región y los
-                dulces de siempre, elegidos uno a uno para que lleguen a tu mesa como deben ser.
+                dulces de siempre, escogidos con calma, uno por uno.
               </p>
             </div>
           </div>

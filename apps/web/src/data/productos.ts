@@ -32,7 +32,7 @@ export const familias: FamiliaProducto[] = [
     id: "lacteos",
     icono: "#ico-lacteos",
     titulo: "Lácteos",
-    texto: "Frescos y de productores de la región.",
+    texto: "Frescos, de productores cercanos.",
     items: [
       "Quesillo", "Queso asadero", "Queso panela", "Queso doble crema",
       "Queso manchego", "Queso rayado", "Crema", "Mantequilla",
@@ -42,7 +42,7 @@ export const familias: FamiliaProducto[] = [
     id: "dulces",
     icono: "#ico-dulces",
     titulo: "Dulces tradicionales",
-    texto: "Los antojos de toda la vida, de esos que saben a recuerdo.",
+    texto: "Los clásicos de la vitrina de dulces.",
     items: ["Grageas", "Gomitas", "Garbanzos enchilados", "Cacahuates botaneros"],
   },
 ];

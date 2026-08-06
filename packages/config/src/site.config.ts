@@ -8,7 +8,7 @@ const businessName = "Sabores de mi Tierra";
 export const site = {
   businessName,
   tagline:
-    "Semillas, lácteos y dulces tradicionales, escogidos a mano en el corazón del barrio del Santuario.",
+    "Semillas, frutos secos, lácteos y dulces, en el barrio del Santuario de San Cristóbal.",
   location: {
     neighborhood: "Barrio del Santuario",
     city: "San Cristóbal de las Casas",

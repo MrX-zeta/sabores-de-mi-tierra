@@ -20,7 +20,7 @@ const razones = [
     titulo: "Trato directo",
     texto: (
       <>
-        Sin intermediarios ni menús de espera: <strong>te atienden directamente los propietarios</strong>, que conocen
+        Sin intermediarios ni respuestas automáticas: <strong>te atienden directamente los propietarios</strong>, que conocen
         cada producto y a cada cliente.
       </>
     ),
@@ -29,8 +29,8 @@ const razones = [
     titulo: "Origen regional",
     texto: (
       <>
-        Trabajamos con productores de Chiapas siempre que es posible:{" "}
-        <strong>comprar aquí es también apoyar a la tierra</strong> que nos da nombre.
+        Buena parte de lo que vendemos se produce aquí cerca:{" "}
+        <strong>comprarlo deja el dinero en Chiapas</strong>, no en una bodega lejana.
       </>
     ),
   },

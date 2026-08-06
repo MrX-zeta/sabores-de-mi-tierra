@@ -18,7 +18,7 @@ export default function Productos() {
             Lo que encontrarás <em>en la tienda</em>
           </h1>
           <p className="lead hero-anim d4" style={{ marginInline: "auto" }}>
-            Cuatro familias de productos, una misma promesa: frescura, origen y precio justo.
+            Esto es lo que manejamos. Si buscas algo más, pregúntanos.
           </p>
         </div>
       </section>
