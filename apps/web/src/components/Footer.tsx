@@ -63,7 +63,7 @@ export default function Footer() {
             aria-label="Volver al inicio de la página"
             aria-disabled={!armado}
           >
-            Volver arriba
+            <span className="top-texto">Volver arriba</span>
             <span className="top-circ">
               <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-arriba" /></svg>
             </span>
