@@ -25,7 +25,7 @@ export const familias: FamiliaProducto[] = [
     items: [
       "Lentejas", "Garbanzos", "Quinoa", "Alpiste", "Tapioca",
       "Chiles secos", "Especias varias", "Jamaica", "Tamarindo",
-      "Tascalate", "Chocolate artesanal",
+      "Tascalate",
     ],
   },
   {
@@ -41,8 +41,8 @@ export const familias: FamiliaProducto[] = [
   {
     id: "dulces",
     icono: "#ico-dulces",
-    titulo: "Dulces tradicionales",
+    titulo: "Dulces y antojos",
     texto: "Los clásicos de la vitrina de dulces.",
-    items: ["Grageas", "Gomitas", "Garbanzos enchilados", "Cacahuates botaneros"],
+    items: ["Gomitas", "Chocolate artesanal", "Cacahuates en varias presentaciones"],
   },
 ];

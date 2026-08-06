@@ -27,7 +27,7 @@ const puertas: Puerta[] = [
   {
     letrero: "Dulces",
     icono: "#ico-dulces",
-    chips: ["Grageas", "Gomitas", "Garbanzos enchilados"],
+    chips: ["Gomitas", "Chocolate artesanal", "Cacahuates"],
     nota: "Gomitas, especias y garbanzos enchilados para el antojo de la tarde.",
     delay: 3,
   },
