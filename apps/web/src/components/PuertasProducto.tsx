@@ -14,21 +14,21 @@ const puertas: Puerta[] = [
     letrero: "Semillas",
     icono: "#ico-semillas",
     chips: ["Almendras", "Nueces", "Pistaches", "Quinoa"],
-    nota: "A granel, frescas y medidas a tu gusto: la base de la cocina de casa.",
+    nota: "A granel y al peso que pidas: te llevas justo lo que necesitas.",
     delay: 1,
   },
   {
     letrero: "Lácteos",
     icono: "#ico-lacteos",
     chips: ["Quesillo", "Asadero", "Crema"],
-    nota: "De productores de la región, con el sabor de lo hecho cerca de casa.",
+    nota: "Quesos, crema y mantequilla frescos, de productores cercanos.",
     delay: 2,
   },
   {
     letrero: "Dulces",
     icono: "#ico-dulces",
     chips: ["Grageas", "Gomitas", "Garbanzos enchilados"],
-    nota: "Los antojos de toda la vida, de esos que saben a recuerdo.",
+    nota: "Gomitas, especias y garbanzos enchilados para el antojo de la tarde.",
     delay: 3,
   },
 ];
@@ -43,7 +43,7 @@ export default function PuertasProducto() {
             Abre las puertas, <em>mira lo que hay</em>
           </h2>
           <p className="lead reveal" data-delay="2">
-            Detrás de cada puerta blanca hay algo rico esperando: semillas, lácteos y los dulces de siempre.
+            Semillas, lácteos y dulces: esto es lo que encuentras al entrar.
           </p>
         </div>
         <div className="puertas">
