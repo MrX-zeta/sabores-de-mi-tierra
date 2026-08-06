@@ -14,18 +14,18 @@ export const familias: FamiliaProducto[] = [
     texto: "A granel y medidos a tu gusto, siempre frescos.",
     items: [
       "Almendras", "Nueces", "Pistaches", "Cacahuates",
-      "Semillas de calabaza", "Dátiles", "Ciruela pasa", "Granola", "Cacao", "…y mucho más",
+      "Semillas de calabaza", "Dátiles", "Ciruela pasa", "Granola", "Cacao",
     ],
   },
   {
     id: "despensa",
     icono: "#ico-especias",
-    titulo: "Granos y despensa regional",
+    titulo: "Granos y especias",
     texto: "Lo básico de la cocina y los sabores de Chiapas.",
     items: [
       "Lentejas", "Garbanzos", "Quinoa", "Alpiste", "Tapioca",
       "Chiles secos", "Especias varias", "Jamaica", "Tamarindo",
-      "Tascalate", "Chocolate artesanal", "…y mucho más",
+      "Tascalate", "Chocolate artesanal",
     ],
   },
   {
@@ -35,7 +35,7 @@ export const familias: FamiliaProducto[] = [
     texto: "Frescos y de productores de la región.",
     items: [
       "Quesillo", "Queso asadero", "Queso panela", "Queso doble crema",
-      "Queso manchego", "Queso rayado", "Crema", "Mantequilla", "…y mucho más",
+      "Queso manchego", "Queso rayado", "Crema", "Mantequilla",
     ],
   },
   {
@@ -43,6 +43,6 @@ export const familias: FamiliaProducto[] = [
     icono: "#ico-dulces",
     titulo: "Dulces tradicionales",
     texto: "Los antojos de toda la vida, de esos que saben a recuerdo.",
-    items: ["Grageas", "Gomitas", "Garbanzos enchilados", "Cacahuates botaneros", "…y mucho más"],
+    items: ["Grageas", "Gomitas", "Garbanzos enchilados", "Cacahuates botaneros"],
   },
 ];
