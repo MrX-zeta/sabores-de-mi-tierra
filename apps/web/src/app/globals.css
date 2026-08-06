@@ -514,7 +514,7 @@ h1 em, h2 em { font-style: italic; color: var(--verde-700); }
   display: grid; place-items: center; background: var(--blanco);
   box-shadow: 0 6px 16px rgba(59, 47, 34, 0.07);
 }
-.renglon-marca svg { width: 22px; height: 22px; }
+.renglon-marca svg { width: 27px; height: 27px; }
 .renglon h3 { font-size: clamp(1.4rem, 2.6vw, 1.9rem); font-weight: 600; }
 .renglon p { font-size: 0.96rem; color: var(--cafe); max-width: 52ch; }
 .renglon strong { font-weight: 500; color: var(--verde-900); }
