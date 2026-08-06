@@ -25,8 +25,7 @@ export default function Contacto() {
             Hablemos <em>directo</em>
           </h1>
           <p className="lead hero-anim d4">
-            Pedidos, apartados o cualquier duda: escríbeles a los propietarios por WhatsApp y te responden ellos mismos,
-            sin formularios ni vueltas.
+            Para pedidos, apartados o cualquier duda, mándanos un WhatsApp y con gusto e atendemos.
           </p>
         </div>
       </section>
@@ -62,13 +61,13 @@ export default function Contacto() {
           <details className="faq-item">
             <summary>¿Cómo hago un pedido?</summary>
             <p>
-              Por ahora, de dos formas: escribiéndonos por WhatsApp para apartar lo que necesites, o visitándonos
+              Por ahora, de dos formas: escribiéndonos por WhatsApp para apartar lo que necesite, o visitándonos
               directamente en la tienda, en el barrio del Santuario.
             </p>
           </details>
           <details className="faq-item">
             <summary>¿Venden a granel?</summary>
-            <p>Sí: semillas, granos y especias se miden a tu gusto, sin empaques de más.</p>
+            <p>Sí: semillas, granos y especias se miden a su gusto, sin empaques de más.</p>
           </details>
           <details className="faq-item">
             <summary>¿Dónde están exactamente?</summary>
@@ -95,14 +94,14 @@ export default function Contacto() {
           <details className="faq-item">
             <summary>¿Puedo comprar en línea?</summary>
             <p>
-              Todavía no… pero algo se está cocinando en el mostrador. Muy pronto podrás hacer tu pedido desde donde
-              estés — mientras tanto, WhatsApp es el camino directo.
+              Todavía no — pero es lo siguiente en la lista, y está más cerca de lo que parece. Mientras tanto,
+              WhatsApp es el camino directo.
             </p>
           </details>
           </div>
           </div>
         </section>
-        <p className="contacto-nota reveal" data-delay="4">Te esperamos con las puertas blancas abiertas.</p>
+        <p className="contacto-nota reveal" data-delay="4">Aquí te esperamos. Pregunta sin compromiso.</p>
       </div>
     </div>
   );
