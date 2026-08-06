@@ -448,7 +448,8 @@ h1 em, h2 em { font-style: italic; color: var(--verde-700); }
     var(--crema-2);
 }
 .prod-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(1.2rem, 2.6vw, 2rem);
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: clamp(1.2rem, 2.6vw, 2rem);
+  max-width: 920px; margin-inline: auto;
   padding-bottom: clamp(4rem, 8vw, 6.5rem);
 }
 .card {
@@ -482,6 +483,11 @@ h1 em, h2 em { font-style: italic; color: var(--verde-700); }
   font-size: 0.7rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
   color: var(--verde-700); border: 1px solid rgba(78, 148, 89, 0.4);
   border-radius: 999px; padding: 0.32rem 0.8rem; background: rgba(78, 148, 89, 0.05);
+}
+.card-lista li:last-child {
+  font-family: var(--f-display); font-style: italic; text-transform: none;
+  font-size: 0.85rem; letter-spacing: 0.04em; font-weight: 600;
+  color: var(--oro); border-color: rgba(211, 160, 47, 0.55); background: rgba(211, 160, 47, 0.08);
 }
 .granel-nota { text-align: center; padding-bottom: clamp(4rem, 8vw, 6rem); }
 .granel-nota-int {

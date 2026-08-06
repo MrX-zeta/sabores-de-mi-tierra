@@ -13,14 +13,14 @@ const puertas: Puerta[] = [
   {
     letrero: "Semillas",
     icono: "#ico-semillas",
-    chips: ["Frijol", "Maíz", "Arroz", "Lenteja"],
+    chips: ["Almendras", "Nueces", "Pistaches", "Quinoa"],
     nota: "A granel, frescas y medidas a tu gusto: la base de la cocina de casa.",
     delay: 1,
   },
   {
     letrero: "Lácteos",
     icono: "#ico-lacteos",
-    chips: ["Quesos", "Crema", "Frescos del día"],
+    chips: ["Quesillo", "Asadero", "Crema"],
     nota: "De productores de la región, con el sabor de lo hecho cerca de casa.",
     delay: 2,
   },

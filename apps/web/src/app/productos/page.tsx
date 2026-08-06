@@ -1,34 +1,12 @@
 import type { Metadata } from "next";
+import { familias } from "@/data/productos";
 import { Espiga } from "@/components/Espiga";
 
 export const metadata: Metadata = {
   title: "Productos",
-  description: "Semillas y granos a granel, lácteos de la región y dulces tradicionales.",
+  description:
+    "Semillas y frutos secos a granel, granos, especias regionales, lácteos y dulces tradicionales.",
 };
-
-const familias = [
-  {
-    icono: "#ico-semillas",
-    titulo: "Semillas y granos",
-    texto: "La base de la cocina de casa, medida a tu gusto y sin empaques de más.",
-    items: ["Frijol", "Maíz", "Arroz", "Lenteja", "Garbanzo", "Y más a granel"],
-    delay: 1,
-  },
-  {
-    icono: "#ico-lacteos",
-    titulo: "Lácteos",
-    texto: "Frescos y de productores de la región, con el sabor de lo hecho cerca de casa.",
-    items: ["Quesos", "Crema", "Frescos del día", "De la región"],
-    delay: 2,
-  },
-  {
-    icono: "#ico-dulces",
-    titulo: "Dulces tradicionales",
-    texto: "Los antojos de toda la vida, de esos que saben a recuerdo.",
-    items: ["Grageas", "Gomitas", "Garbanzos enchilados", "Y más antojos"],
-    delay: 3,
-  },
-];
 
 export default function Productos() {
   return (
@@ -40,21 +18,21 @@ export default function Productos() {
             Lo que encontrarás <em>en la tienda</em>
           </h1>
           <p className="lead hero-anim d4" style={{ marginInline: "auto" }}>
-            Tres familias de productos, una misma promesa: frescura, origen y precio justo.
+            Cuatro familias de productos, una misma promesa: frescura, origen y precio justo.
           </p>
         </div>
       </section>
 
       <div className="wrap prod-grid">
-        {familias.map((f) => (
-          <article key={f.titulo} className="card reveal" data-delay={f.delay}>
+        {familias.map((f, i) => (
+          <article key={f.id} className="card reveal" data-delay={Math.min(i + 1, 4)}>
             <div className="card-icono">
               <svg viewBox="0 0 48 48" aria-hidden="true"><use href={f.icono} /></svg>
             </div>
             <h3>{f.titulo}</h3>
             <p>{f.texto}</p>
             <ul className="card-lista">
-              {f.items.map((i) => <li key={i}>{i}</li>)}
+              {f.items.map((item) => <li key={item}>{item}</li>)}
             </ul>
           </article>
         ))}

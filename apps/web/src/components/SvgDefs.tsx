@@ -59,6 +59,15 @@ export default function SvgDefs() {
             <path d="M20 18.5 C 18 22, 18 26, 20 29.5 M27.5 18.5 C 29.5 22, 29.5 26, 27.5 29.5" strokeLinecap="round" />
           </g>
         </symbol>
+        <symbol id="ico-especias" viewBox="0 0 48 48">
+          <g fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M18 10 h12 v4 h-12 z" />
+            <path d="M15 14 c-2 8 -2 16 0 21 a4 4 0 0 0 4 4 h10 a4 4 0 0 0 4 -4 c2 -5 2 -13 0 -21" />
+          </g>
+          <g fill="currentColor">
+            <circle cx="21" cy="24" r="1.8" /><circle cx="27" cy="28" r="1.8" /><circle cx="23" cy="32" r="1.8" />
+          </g>
+        </symbol>
         <symbol id="ico-arriba" viewBox="0 0 24 24">
           <path fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M12 20 V5 M5.5 11.5 L12 5 l6.5 6.5" />
         </symbol>
