@@ -56,6 +56,11 @@ export default function Footer() {
           <span>
             © {new Date().getFullYear()} {site.businessName} · {site.location.neighborhood},{" "}
             {site.location.city}
+            <span className="legal-links">
+              <Link href="/aviso-de-privacidad">Aviso de privacidad</Link>
+              {" · "}
+              <Link href="/terminos">Términos de uso</Link>
+            </span>
           </span>
           <button
             className={`top-btn${armado ? " armed" : ""}`}

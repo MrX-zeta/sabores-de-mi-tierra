@@ -596,6 +596,20 @@ h1 em, h2 em { font-style: italic; color: var(--verde-700); }
 @keyframes faqAbre { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .faq-item[open] p { animation: none; } }
 
+/* ══════════ LEGAL ══════════ */
+.v-legal .page-hero { background: linear-gradient(180deg, var(--crema), var(--crema-2)); }
+.legal-cuerpo { max-width: 720px; padding-bottom: clamp(4rem, 8vw, 6.5rem); }
+.legal-fecha {
+  font-size: 0.72rem; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--cafe-suave); margin-bottom: 2.4rem;
+}
+.legal-cuerpo h2 {
+  font-size: clamp(1.3rem, 2.4vw, 1.7rem); margin: 2.2rem 0 0.6rem;
+  padding-top: 1.6rem; border-top: 1px solid var(--hairline);
+}
+.legal-cuerpo h2:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
+.legal-cuerpo p { color: var(--cafe); font-size: 0.96rem; }
+
 /* ══════════ FOOTER ══════════ */
 .footer {
   background: linear-gradient(180deg, var(--verde-900), #12301D);
@@ -614,6 +628,10 @@ h1 em, h2 em { font-style: italic; color: var(--verde-700); }
   display: flex; align-items: center; justify-content: space-between; gap: 1.4rem; flex-wrap: wrap;
   font-size: 0.74rem; color: rgba(251, 247, 237, 0.55); letter-spacing: 0.06em;
 }
+.legal-links { display: block; margin-top: 0.4rem; }
+.legal-links a { color: rgba(251, 247, 237, 0.45); text-decoration: underline; text-underline-offset: 3px; transition: color 0.3s; }
+.legal-links a:hover { color: var(--oro-claro); }
+
 .top-btn {
   display: inline-flex; align-items: center; gap: 0.7rem;
   font-size: 0.7rem; font-weight: 500; letter-spacing: 0.26em; text-transform: uppercase;
