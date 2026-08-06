@@ -8,9 +8,9 @@ export const metadata: Metadata = {
 };
 
 const pasos = [
-  { t: "1 · Escribe", d: "Cuéntanos qué se te antoja o qué necesitas.", delay: 1 },
-  { t: "2 · Apartamos", d: "Te confirmamos qué hay y te lo guardamos.", delay: 2 },
-  { t: "3 · Pasas por él", d: "Lo recoges en la tienda, listo y a tu nombre.", delay: 3 },
+  { t: "1 · Nos escribes", d: "Nos cuentas qué necesitas por WhatsApp.", delay: 1 },
+  { t: "2 · Te lo apartamos", d: "Te confirmamos qué hay y te lo guardamos.", delay: 2 },
+  { t: "3 · Pasas a recogerlo", d: "Tu pedido te espera listo en la tienda.", delay: 3 },
 ];
 
 export default function Contacto() {
