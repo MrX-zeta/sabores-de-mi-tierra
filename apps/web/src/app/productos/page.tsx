@@ -39,10 +39,11 @@ export default function Productos() {
       </div>
 
       <div className="granel-nota reveal">
-        <p className="granel-nota-int">
-          <Espiga />
+        <p className="granel-titulo">
+          <Espiga /> Y mucho más <Espiga />
+        </p>
+        <p className="granel-sub">
           ¿Buscas algo en especial? Pregúntanos por WhatsApp: si no lo tenemos, te decimos cuándo llega.
-          <Espiga />
         </p>
       </div>
     </div>
