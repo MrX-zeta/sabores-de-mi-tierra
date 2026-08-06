@@ -22,8 +22,8 @@ export default function AvisoDePrivacidad() {
 
         <h2>Responsable de tus datos</h2>
         <p>
-          {/* TODO: nombre completo del responsable (persona física o razón social) pendiente de confirmar */}
-          {site.businessName}, con domicilio en {site.location.neighborhood},{" "}
+          {site.legalName}, propietaria de {site.businessName}, con domicilio en {site.location.street},{" "}
+          {site.location.neighborhood},{" "}
           {site.location.city}, {site.location.state}, {site.location.country}, es responsable del
           tratamiento de los datos personales que nos compartas, conforme a la Ley Federal de
           Protección de Datos Personales en Posesión de los Particulares.

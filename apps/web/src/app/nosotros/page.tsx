@@ -35,12 +35,15 @@ export default function Nosotros() {
             </h2>
             <div className="lead reveal" data-delay="2">
               <p>
-                {site.businessName} nace en el {site.location.neighborhood}, en {site.location.city}: una tienda
-                pequeña, atendida por sus propietarios, donde cada producto se conoce por nombre y procedencia.
+                {site.businessName} abrió en 2026, aquí en la calle Real del Santuario. La idea nació de una necesidad
+                que veíamos todos los días: que los vecinos no tuvieran que ir hasta el mercado o el supermercado por
+                sus semillas, sus quesos o su despensa. Encontramos el local, vimos el paso de la gente por la zona, y
+                nos animamos.
               </p>
               <p>
-                Aquí no hay anaqueles infinitos ni prisa. Hay semillas a granel, lácteos frescos de la región y los
-                dulces de siempre, escogidos con calma, uno por uno.
+                Somos un negocio 100% familiar, atendido por sus propietarios. Creemos en los productos naturales
+                porque le hacen bien a la salud, y atendemos como nos gusta que nos atiendan: con trato amable, precios
+                justos y todo fresco.
               </p>
             </div>
           </div>
@@ -76,11 +79,8 @@ export default function Nosotros() {
               <p>Las mismas personas que eligen el producto son quienes te lo venden y te responden el WhatsApp.</p>
             </div>
             <div className="barrio-dato reveal" data-delay="3">
-              <h3>Raíz chiapaneca</h3>
-              <p>
-                Trabajamos con productores de la región siempre que es posible: comprar aquí es apoyar a la tierra que
-                nos da nombre.
-              </p>
+              <h3>Lo dicen los clientes</h3>
+              <p>Que es un negocio bonito y limpio, que los precios son buenos, y que los quesos son muy ricos.</p>
             </div>
           </div>
         </div>

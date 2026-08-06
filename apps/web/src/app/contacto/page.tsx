@@ -49,9 +49,9 @@ export default function Contacto() {
           ))}
         </div>
         <div className="contacto-dir reveal" data-delay="3">
-          <strong>{site.location.neighborhood}</strong>
+          <strong>{site.location.street}</strong>
           <span>
-            {site.location.city} · {site.location.state} · {site.location.country}
+            {site.location.neighborhood} · {site.location.city} · {site.location.state}
           </span>
         </div>
         <section className="faq reveal" data-delay="4" aria-label="Preguntas frecuentes">
@@ -72,9 +72,8 @@ export default function Contacto() {
           <details className="faq-item">
             <summary>¿Dónde están exactamente?</summary>
             <p>
-              {/* TODO: dirección exacta pendiente de confirmar con los propietarios */}
-              En el barrio del Santuario, en San Cristóbal de las Casas. Escríbenos por WhatsApp y te compartimos la
-              ubicación exacta.
+              En Calle Real del Santuario #19-D, barrio del Santuario, San Cristóbal de las Casas. Si no ubicas la
+              calle, mándanos un WhatsApp y te pasamos la ubicación.
             </p>
           </details>
           </div>

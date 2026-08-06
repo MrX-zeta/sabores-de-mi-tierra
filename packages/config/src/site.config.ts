@@ -7,9 +7,11 @@ const businessName = "Sabores de mi Tierra";
 
 export const site = {
   businessName,
+  legalName: "Francisca Pérez Muñoz",
   tagline:
     "Semillas, frutos secos, lácteos y dulces, en el barrio del Santuario de San Cristóbal.",
   location: {
+    street: "Calle Real del Santuario #19-D",
     neighborhood: "Barrio del Santuario",
     city: "San Cristóbal de las Casas",
     state: "Chiapas",
