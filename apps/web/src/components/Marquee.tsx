@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Espiga } from "./Espiga";
 
-const items = ["Semillas", "Lácteos", "Grageas", "Gomitas", "Garbanzos enchilados", "Productos regionales"];
+const items = ["Semillas", "Lácteos", "Congelados", "Gomitas", "Frutos secos", "Productos regionales"];
 
 function Grupo() {
   return (
