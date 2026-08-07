@@ -558,6 +558,59 @@ h1 em, h2 em { font-style: italic; color: var(--verde-700); }
   box-shadow: 0 6px 16px rgba(59, 47, 34, 0.07);
 }
 .renglon-marca svg { width: 27px; height: 27px; }
+
+/* animaciones de los íconos: hover en escritorio, .animado (una vez) en táctil */
+.anim-grano-a, .anim-grano-b, .anim-burbuja, .anim-sol, .anim-hoja-i, .anim-hoja-d { transform-box: fill-box; }
+.anim-grano-a, .anim-grano-b { transform-origin: center; }
+.anim-burbuja { transform-origin: left bottom; }
+.anim-sol { transform-origin: center; }
+.anim-hoja-i { transform-origin: right bottom; }
+.anim-hoja-d { transform-origin: left bottom; }
+
+.renglon:hover .anim-grano-a, .renglon.animado .anim-grano-a { animation: granoSalta 0.65s var(--ease-out); }
+.renglon:hover .anim-grano-b, .renglon.animado .anim-grano-b { animation: granoSalta 0.65s var(--ease-out) 0.12s; }
+@keyframes granoSalta {
+  0%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-7px) rotate(10deg); }
+  70% { transform: translateY(1.5px); }
+}
+
+.renglon:hover .anim-burbuja, .renglon.animado .anim-burbuja { animation: burbujaPop 0.55s var(--ease-out); }
+@keyframes burbujaPop {
+  0% { transform: scale(0); opacity: 0; }
+  55% { transform: scale(1.35) rotate(6deg); opacity: 1; }
+  78% { transform: scale(0.92); }
+  100% { transform: scale(1); opacity: 1; }
+}
+.renglon:hover .anim-punto-1, .renglon.animado .anim-punto-1 { animation: puntoTitila 0.55s ease-in-out 2; }
+.renglon:hover .anim-punto-2, .renglon.animado .anim-punto-2 { animation: puntoTitila 0.55s ease-in-out 0.14s 2; }
+.renglon:hover .anim-punto-3, .renglon.animado .anim-punto-3 { animation: puntoTitila 0.55s ease-in-out 0.28s 2; }
+.anim-punto-1, .anim-punto-2, .anim-punto-3 { transform-box: fill-box; transform-origin: center; }
+@keyframes puntoTitila {
+  0%, 100% { opacity: 1; transform: translateY(0); }
+  50% { opacity: 0.2; transform: translateY(-3.5px); }
+}
+
+.renglon:hover .anim-sol, .renglon.animado .anim-sol { animation: solSube 0.8s var(--ease-out); }
+@keyframes solSube {
+  0% { transform: translateY(9px) scale(0.7); opacity: 0.4; }
+  60% { transform: translateY(-4px) scale(1.15); opacity: 1; }
+  100% { transform: translateY(0) scale(1); }
+}
+.renglon:hover .anim-halo, .renglon.animado .anim-halo { animation: haloPulsa 0.9s ease-out 0.15s; }
+@keyframes haloPulsa {
+  0% { opacity: 0.9; transform: scale(1); }
+  100% { opacity: 0; transform: scale(3.6); }
+}
+.anim-halo { transform-box: fill-box; transform-origin: center; }
+
+.renglon:hover .anim-hoja-i, .renglon.animado .anim-hoja-i { animation: hojaCrece 0.7s var(--ease-out); }
+.renglon:hover .anim-hoja-d, .renglon.animado .anim-hoja-d { animation: hojaCrece 0.7s var(--ease-out) 0.14s; }
+@keyframes hojaCrece {
+  0% { transform: scale(0.15) rotate(-14deg); }
+  65% { transform: scale(1.15) rotate(4deg); }
+  100% { transform: scale(1) rotate(0); }
+}
 .renglon h3 { font-size: clamp(1.4rem, 2.6vw, 1.9rem); font-weight: 600; }
 .renglon p { font-size: 0.96rem; color: var(--cafe); max-width: 52ch; }
 .renglon strong { font-weight: 500; color: var(--verde-900); }
@@ -769,4 +822,5 @@ h1 em, h2 em { font-style: italic; color: var(--verde-700); }
   .top-btn.armed .top-circ { animation: none; }
   .btn, .card, .puerta, .arco-marco, .puerta-hoja, .puerta-interior > *, .cta-espiga { transition: none; }
   .cta-halo::before { animation: none; }
+  .renglon:hover [class^="anim-"], .renglon.animado [class^="anim-"] { animation: none; }
 }
