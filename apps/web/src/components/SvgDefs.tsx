@@ -90,12 +90,10 @@ export default function SvgDefs() {
           </g>
         </symbol>
         <symbol id="ico-especias" viewBox="0 0 48 48">
-          <g fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M18 10 h12 v4 h-12 z" />
-            <path d="M15 14 c-2 8 -2 16 0 21 a4 4 0 0 0 4 4 h10 a4 4 0 0 0 4 -4 c2 -5 2 -13 0 -21" />
-          </g>
-          <g fill="currentColor">
-            <circle cx="21" cy="24" r="1.8" /><circle cx="27" cy="28" r="1.8" /><circle cx="23" cy="32" r="1.8" />
+          <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round">
+            <path strokeWidth="3.2" d="M23.5 12.5 C 25 8.5, 28.5 6, 33 6.5" />
+            <path strokeWidth="2.6" d="M17 14.5 C 15 20.5, 14.6 28, 16.6 33.6 C 18.4 38.6, 21.6 42.4, 25.6 44 C 28.2 45, 30 43.4, 29 41.2 C 28.2 39.4, 28.6 37.6, 29.8 35.6 C 32.8 30.4, 34.4 24, 33.6 18 C 33.2 14.6, 30.8 12.6, 27.6 12.5 C 23.4 12.4, 19 12.9, 17 14.5 Z" />
+            <path strokeWidth="2.2" d="M21 17 c-1.4 5, -1.4 11, 0.4 15.6 M26.4 16.6 c0.8 5.4, 0 11.4, -2.2 16" />
           </g>
         </symbol>
         <symbol id="ico-arriba" viewBox="0 0 24 24">
