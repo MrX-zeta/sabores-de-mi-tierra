@@ -53,12 +53,10 @@ export default function SvgDefs() {
         </symbol>
         <symbol id="ico-dulces" viewBox="0 0 48 48">
           <g fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M6 20 L24 12 L42 20 L24 28 Z" />
-            <path d="M6 20 V26 L24 34 V28 M42 20 V26 L24 34" />
-            <path d="M15.5 20.2 A 8.5 3.6 0 0 1 32.5 20.2 A 8.5 3.6 0 0 1 15.5 20.2" strokeWidth="1.8" />
-            <path d="M24 16 v8 M17 19 l14 2.4 M31 19 l-14 2.4" strokeWidth="1.5" />
-            <path d="M30 34 L40 30 L44 36 L34 40 Z" />
-            <path d="M35.5 35 a 3 1.6 0 0 1 5 0" strokeWidth="1.4" />
+            <circle cx="24" cy="24" r="9" />
+            <path d="M15 21 C 11 19.5, 8.5 18.3, 6.2 17 C 7.4 19.5, 7.4 21.5, 6.2 24 C 7.4 26.5, 7.4 28.5, 6.2 31 C 8.5 29.7, 11 28.5, 15 27" />
+            <path d="M33 21 C 37 19.5, 39.5 18.3, 41.8 17 C 40.6 19.5, 40.6 21.5, 41.8 24 C 40.6 26.5, 40.6 28.5, 41.8 31 C 39.5 29.7, 37 28.5, 33 27" />
+            <path d="M20.8 16.4 C 18.8 20.5, 18.8 27.5, 20.8 31.6 M27.2 16.4 C 29.2 20.5, 29.2 27.5, 27.2 31.6" strokeWidth="1.5" />
           </g>
         </symbol>
         <symbol id="ico-trato" viewBox="0 0 48 48">
