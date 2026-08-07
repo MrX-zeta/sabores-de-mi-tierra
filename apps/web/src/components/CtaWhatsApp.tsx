@@ -8,7 +8,7 @@ export default function CtaWhatsApp() {
         <div className="cta-banda-int reveal">
           <Voluta className="cta-banda-voluta" />
           <h3>¿Se te antojó algo?</h3>
-          <p>Escríbeles directo a los propietarios por WhatsApp: pedidos, apartados y dudas, sin formularios.</p>
+          <p>Pedidos, apartados y dudas, sin formularios: te contestan directo los propietarios.</p>
           <span className="cta-halo">
             <a className="btn btn-whatsapp" href={waLink()} target="_blank" rel="noopener">
               <IconWa /> Escríbenos por WhatsApp

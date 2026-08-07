@@ -31,7 +31,7 @@ export default function Nosotros() {
           <div className="historia-texto">
             <p className="eyebrow reveal">Nuestra historia</p>
             <h2 className="reveal" data-delay="1">
-              Del mostrador <em>a tu mesa</em>
+              Por qué abrimos <em>la tienda</em>
             </h2>
             <div className="lead reveal" data-delay="2">
               <p>
@@ -55,7 +55,7 @@ export default function Nosotros() {
                 <p className="arco-sub">
                   {site.location.neighborhood}
                   <br />
-                  Desde el corazón de {site.location.state}
+                  {site.location.city}, {site.location.state}
                 </p>
               </div>
             </div>

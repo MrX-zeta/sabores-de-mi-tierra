@@ -25,7 +25,7 @@ export default function Contacto() {
             Hablemos <em>directo</em>
           </h1>
           <p className="lead hero-anim d4">
-            Para pedidos, apartados o cualquier duda, mándanos un WhatsApp y con gusto e atendemos.
+            Para pedidos, apartados o cualquier duda, mándanos un WhatsApp y con gusto te atendemos.
           </p>
         </div>
       </section>
@@ -61,13 +61,13 @@ export default function Contacto() {
           <details className="faq-item">
             <summary>¿Cómo hago un pedido?</summary>
             <p>
-              Por ahora, de dos formas: escribiéndonos por WhatsApp para apartar lo que necesite, o visitándonos
+              Por ahora, de dos formas: escribiéndonos por WhatsApp para apartar lo que necesites, o visitándonos
               directamente en la tienda, en el barrio del Santuario.
             </p>
           </details>
           <details className="faq-item">
             <summary>¿Venden a granel?</summary>
-            <p>Sí: semillas, granos y especias se miden a su gusto, sin empaques de más.</p>
+            <p>Sí: semillas, granos y especias se miden a tu gusto, sin empaques de más.</p>
           </details>
           <details className="faq-item">
             <summary>¿Dónde están exactamente?</summary>
@@ -88,13 +88,12 @@ export default function Contacto() {
           </details>
           <details className="faq-item">
             <summary>¿Hacen entregas a domicilio?</summary>
-            <p>Aún no: hoy tu pedido te espera en la tienda. Pero viene en camino junto con la venta en línea…</p>
+            <p>Aún no: por ahora tu pedido te espera en la tienda. La entrega a domicilio llegará junto con la venta en línea.</p>
           </details>
           <details className="faq-item">
             <summary>¿Puedo comprar en línea?</summary>
             <p>
-              Todavía no — pero es lo siguiente en la lista, y está más cerca de lo que parece. Mientras tanto,
-              WhatsApp es el camino directo.
+              Todavía no: es lo siguiente en la lista. Mientras tanto, WhatsApp es el camino directo.
             </p>
           </details>
           </div>
