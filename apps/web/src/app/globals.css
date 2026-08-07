@@ -639,6 +639,29 @@ h1 em, h2 em { font-style: italic; color: var(--verde-700); }
 @keyframes faqAbre { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .faq-item[open] p { animation: none; } }
 
+/* ══════════ 404 ══════════ */
+.v-404 {
+  min-height: calc(100svh - var(--header-h));
+  background: linear-gradient(180deg, var(--crema), var(--crema-2));
+  padding-bottom: clamp(3rem, 6vw, 5rem);
+}
+.puerta-404 { max-width: 300px; margin: 2.6rem auto 0; }
+.puerta-404 .puerta-escena { height: 230px; }
+.puerta-404 .puerta-interior svg { width: 44px; height: 44px; color: var(--oro-claro); opacity: 0.5; }
+.puerta-404 .candado {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: 52px; height: 60px; color: var(--oro); z-index: 3;
+  filter: drop-shadow(0 6px 12px rgba(59, 47, 34, 0.25));
+}
+.puerta-404 .puerta-escena:hover { animation: niega 0.5s var(--ease-out); }
+@keyframes niega {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-7px); }
+  55% { transform: translateX(6px); }
+  80% { transform: translateX(-3px); }
+}
+@media (prefers-reduced-motion: reduce) { .puerta-404 .puerta-escena:hover { animation: none; } }
+
 /* ══════════ LEGAL ══════════ */
 .v-legal .page-hero { background: linear-gradient(180deg, var(--crema), var(--crema-2)); }
 .legal-cuerpo { max-width: 720px; padding-bottom: clamp(4rem, 8vw, 6.5rem); }
