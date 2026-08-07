@@ -36,22 +36,22 @@ export default function Fx() {
       reveals.forEach((el) => el.classList.add("in"));
     }
 
-    // Puertas: en táctil se abren al entrar en vista y se cierran al salir
-    let ioPuertas: IntersectionObserver | undefined;
+    // Puertas: en táctil, el primer toque abre la puerta; solo "Ver en la tienda" navega
+    const limpiezasPuertas: Array<() => void> = [];
     if (!fine) {
-      const puertas = document.querySelectorAll(".puerta");
-      if ("IntersectionObserver" in window) {
-        ioPuertas = new IntersectionObserver(
-          (entries) =>
-            entries.forEach((e) =>
-              e.target.classList.toggle("abierta", e.isIntersecting && e.intersectionRatio > 0.6)
-            ),
-          { threshold: [0, 0.6, 1] }
-        );
-        puertas.forEach((p) => ioPuertas?.observe(p));
-      } else {
-        puertas.forEach((p) => p.classList.add("abierta"));
-      }
+      const puertas = document.querySelectorAll<HTMLElement>(".puerta");
+      puertas.forEach((puerta) => {
+        const alTocar = (ev: Event) => {
+          const objetivo = ev.target as HTMLElement;
+          if (objetivo.closest(".puerta-cta")) return; // el CTA sí navega
+          ev.preventDefault();
+          const estabaAbierta = puerta.classList.contains("abierta");
+          puertas.forEach((p) => p.classList.remove("abierta"));
+          if (!estabaAbierta) puerta.classList.add("abierta");
+        };
+        puerta.addEventListener("click", alTocar);
+        limpiezasPuertas.push(() => puerta.removeEventListener("click", alTocar));
+      });
     }
 
     // Tilt 3D
@@ -81,8 +81,8 @@ export default function Fx() {
 
     return () => {
       io?.disconnect();
-      ioPuertas?.disconnect();
       cleanups.forEach((fn) => fn());
+      limpiezasPuertas.forEach((fn) => fn());
     };
   }, [pathname]);
 
