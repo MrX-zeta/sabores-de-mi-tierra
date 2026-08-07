@@ -25,6 +25,8 @@ export const site = {
     },
   },
   seo: {
+    // TODO: cambiar por el dominio real al conectarlo en Vercel
+    url: "https://sabores-de-mi-tierra.vercel.app",
     title: `${businessName} — Semillas, lácteos y dulces · San Cristóbal de las Casas`,
     description:
       "Semillas, lácteos y dulces tradicionales escogidos a mano en el barrio del Santuario, San Cristóbal de las Casas, Chiapas.",

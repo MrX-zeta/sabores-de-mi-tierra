@@ -21,11 +21,20 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(site.seo.url),
   title: {
     default: site.seo.title,
     template: `%s · ${site.businessName}`,
   },
   description: site.seo.description,
+  openGraph: {
+    title: site.seo.title,
+    description: site.seo.description,
+    url: site.seo.url,
+    siteName: site.businessName,
+    locale: "es_MX",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
