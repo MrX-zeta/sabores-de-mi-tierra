@@ -54,6 +54,26 @@ export default function Fx() {
       });
     }
 
+    // Íconos de "Por qué": en táctil animan una vez al entrar en vista
+    let ioRenglones: IntersectionObserver | undefined;
+    if (!fine && "IntersectionObserver" in window) {
+      const renglones = document.querySelectorAll(".renglon");
+      if (renglones.length) {
+        ioRenglones = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((e) => {
+              if (e.isIntersecting) {
+                e.target.classList.add("animado");
+                ioRenglones?.unobserve(e.target);
+              }
+            });
+          },
+          { threshold: 0.5 }
+        );
+        renglones.forEach((r) => ioRenglones?.observe(r));
+      }
+    }
+
     // Tilt 3D
     const cleanups: Array<() => void> = [];
     if (fine && !reduce) {
@@ -81,6 +101,7 @@ export default function Fx() {
 
     return () => {
       io?.disconnect();
+      ioRenglones?.disconnect();
       cleanups.forEach((fn) => fn());
       limpiezasPuertas.forEach((fn) => fn());
     };
