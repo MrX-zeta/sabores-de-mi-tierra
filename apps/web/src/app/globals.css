@@ -24,7 +24,7 @@
   --crema-2: var(--color-crema-2);
   --blanco: var(--color-blanco-calido);
   --tinta: var(--color-tinta);
-  --cafe: var(--color-cafe);
+  --cafe: #5C4630;
   --cafe-suave: var(--color-cafe-suave);
   --verde-900: var(--color-verde-900);
   --verde-700: var(--color-verde-700);
@@ -45,7 +45,7 @@
 html { scroll-behavior: smooth; overflow-anchor: none; }
 body {
   font-family: var(--f-sans);
-  font-weight: 300;
+  font-weight: 400;
   color: var(--tinta);
   background: var(--crema);
   line-height: 1.7;
@@ -81,7 +81,7 @@ ul { list-style: none; margin: 0; padding: 0; }
 h1, h2, h3 { font-family: var(--f-display); font-weight: 500; line-height: 1.08; color: var(--tinta); }
 h2 { font-size: clamp(2rem, 4.6vw, 3.1rem); margin: 0.9rem 0 1.1rem; }
 h1 em, h2 em { font-style: italic; color: var(--verde-700); }
-.lead { font-size: clamp(1rem, 1.6vw, 1.14rem); color: var(--cafe); max-width: 56ch; }
+.lead { font-size: clamp(1.02rem, 1.7vw, 1.18rem); color: var(--cafe); max-width: 56ch; }
 
 /* encabezado interno de cada página */
 .page-hero {
@@ -578,7 +578,7 @@ h1 em, h2 em { font-style: italic; color: var(--verde-700); }
 .v-contacto .page-hero h1 em { color: var(--oro-claro); }
 .v-contacto .eyebrow { color: var(--oro-claro); }
 .v-contacto .eyebrow::before, .v-contacto .eyebrow-c::after { background: var(--oro-claro); }
-.v-contacto .lead { color: rgba(251, 247, 237, 0.78); margin-inline: auto; }
+.v-contacto .lead { color: rgba(251, 247, 237, 0.88); margin-inline: auto; }
 .contacto-cuerpo { padding-bottom: clamp(5rem, 10vw, 8rem); position: relative; z-index: 1; }
 .contacto-espigas { position: absolute; top: min(66vh, 640px); width: clamp(200px, 24vw, 340px); opacity: 0.14; color: var(--oro-claro); pointer-events: none; }
 .contacto-espigas svg { width: 100%; height: auto; }
@@ -598,7 +598,7 @@ h1 em, h2 em { font-style: italic; color: var(--verde-700); }
   color: rgba(251, 247, 237, 0.6); display: flex; flex-direction: column; gap: 0.5rem; align-items: center;
 }
 .contacto-dir strong { font-weight: 600; color: var(--oro-claro); letter-spacing: 0.28em; }
-.contacto-nota { margin-top: 1.6rem; font-family: var(--f-display); font-style: italic; font-size: 1.05rem; color: rgba(251, 247, 237, 0.65); }
+.contacto-nota { margin-top: 1.6rem; font-family: var(--f-display); font-style: italic; font-size: 1.2rem; color: rgba(251, 247, 237, 0.85); }
 
 /* faq */
 .faq { max-width: 920px; margin: 4rem auto 0; text-align: left; }
@@ -687,15 +687,15 @@ h1 em, h2 em { font-style: italic; color: var(--verde-700); }
 .footer .brand-badge { box-shadow: inset 0 0 0 2px rgba(235, 197, 101, 0.45), 0 6px 14px rgba(0, 0, 0, 0.32); }
 .footer-grid { display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
 .footer-nav { display: flex; gap: 1.6rem; flex-wrap: wrap; }
-.footer-nav a { font-size: 0.72rem; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(251, 247, 237, 0.72); transition: color 0.3s; }
+.footer-nav a { font-size: 0.74rem; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(251, 247, 237, 0.85); transition: color 0.3s; }
 .footer-nav a:hover, .footer-nav a.act { color: var(--oro-claro); }
 .footer-fin {
   margin-top: 2.4rem; padding-top: 1.6rem; border-top: 1px solid rgba(235, 197, 101, 0.22);
   display: flex; align-items: center; justify-content: space-between; gap: 1.4rem; flex-wrap: wrap;
-  font-size: 0.74rem; color: rgba(251, 247, 237, 0.55); letter-spacing: 0.06em;
+  font-size: 0.78rem; color: rgba(251, 247, 237, 0.72); letter-spacing: 0.06em;
 }
 .legal-links { display: block; margin-top: 0.4rem; }
-.legal-links a { color: rgba(251, 247, 237, 0.45); text-decoration: underline; text-underline-offset: 3px; transition: color 0.3s; }
+.legal-links a { color: rgba(251, 247, 237, 0.62); text-decoration: underline; text-underline-offset: 3px; transition: color 0.3s; }
 .legal-links a:hover { color: var(--oro-claro); }
 
 .top-btn {
