@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { IconoEscogidos, IconoTrato, IconoOrigen, IconoFresco } from "@/components/IconosPorque";
 
 export const metadata: Metadata = {
   title: "Por qué elegirnos",
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
 
 const razones = [
   {
-    icono: "#ico-semillas",
+    icono: <IconoEscogidos />,
     titulo: "Productos escogidos",
     texto: (
       <>
@@ -17,7 +18,7 @@ const razones = [
     ),
   },
   {
-    icono: "#ico-trato",
+    icono: <IconoTrato />,
     titulo: "Trato directo",
     texto: (
       <>
@@ -27,7 +28,7 @@ const razones = [
     ),
   },
   {
-    icono: "#ico-origen",
+    icono: <IconoOrigen />,
     titulo: "Hecho aquí cerca",
     texto: (
       <>
@@ -37,7 +38,7 @@ const razones = [
     ),
   },
   {
-    icono: "#ico-fresco",
+    icono: <IconoFresco />,
     titulo: "Todo fresco",
     texto: (
       <>
@@ -66,9 +67,7 @@ export default function Porque() {
       <div className="wrap libreta">
         {razones.map((r, i) => (
           <div key={r.titulo} className="renglon reveal" data-delay={Math.min(i + 1, 4)}>
-            <span className="renglon-marca">
-              <svg viewBox="0 0 48 48" aria-hidden="true"><use href={r.icono} /></svg>
-            </span>
+            <span className="renglon-marca">{r.icono}</span>
             <h3>{r.titulo}</h3>
             <p>{r.texto}</p>
           </div>
