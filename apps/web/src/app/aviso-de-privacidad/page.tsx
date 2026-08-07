@@ -18,7 +18,7 @@ export default function AvisoDePrivacidad() {
       </section>
 
       <div className="wrap legal-cuerpo">
-        <p className="legal-fecha">Última actualización: febrero de 2026</p>
+        <p className="legal-fecha">Última actualización: agosto de 2026</p>
 
         <h2>Responsable de tus datos</h2>
         <p>

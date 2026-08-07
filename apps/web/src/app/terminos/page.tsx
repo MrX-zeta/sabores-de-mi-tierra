@@ -18,7 +18,7 @@ export default function Terminos() {
       </section>
 
       <div className="wrap legal-cuerpo">
-        <p className="legal-fecha">Última actualización: febrero de 2026</p>
+        <p className="legal-fecha">Última actualización: agosto de 2026</p>
 
         <h2>Sobre este sitio</h2>
         <p>
