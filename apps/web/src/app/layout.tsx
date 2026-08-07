@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Jost } from "next/font/google";
+import { Cormorant_Garamond, Dancing_Script, Jost } from "next/font/google";
 import { site } from "@sabores/config";
 import SvgDefs from "@/components/SvgDefs";
 import Header from "@/components/Header";
@@ -13,6 +13,12 @@ const cormorant = Cormorant_Garamond({
   weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
   variable: "--font-cormorant",
+});
+
+const dancing = Dancing_Script({
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+  variable: "--font-dancing",
 });
 
 const jost = Jost({
@@ -40,7 +46,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" className={`${cormorant.variable} ${jost.variable}`}>
+    <html lang="es" className={`${cormorant.variable} ${jost.variable} ${dancing.variable}`}>
       <body>
         <JsonLd />
         <SvgDefs />
