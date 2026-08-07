@@ -15,10 +15,10 @@ export default function Nosotros() {
         <div className="wrap">
           <p className="eyebrow eyebrow-c hero-anim d2">Quiénes somos</p>
           <h1 className="hero-anim d3">
-            Una tienda de barrio, <em>con alma de mercado</em>
+            Atendemos como nos gusta <em>que nos atiendan</em>
           </h1>
           <p className="cita-grande hero-anim d4">
-            Lo nuestro es sencillo: buen producto, trato de vecino y la palabra por delante.
+            Buen producto, buen precio y buen trato. Así de simple.
           </p>
           <p className="cita-firma hero-anim d5">Los propietarios · {site.location.neighborhood}</p>
         </div>
@@ -42,8 +42,8 @@ export default function Nosotros() {
               </p>
               <p>
                 Somos un negocio 100% familiar, atendido por sus propietarios. Creemos en los productos naturales
-                porque le hacen bien a la salud, y atendemos como nos gusta que nos atiendan: con trato amable, precios
-                justos y todo fresco.
+                porque le hacen bien a la salud, y aquí te recibimos como se debe: con trato amable, precios justos y
+                todo fresco.
               </p>
             </div>
           </div>
