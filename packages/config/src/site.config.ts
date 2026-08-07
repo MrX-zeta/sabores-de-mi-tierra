@@ -9,7 +9,7 @@ export const site = {
   businessName,
   legalName: "Francisca Pérez Muñoz",
   tagline:
-    "Semillas, frutos secos, lácteos y dulces, en el barrio del Santuario de San Cristóbal.",
+    "Semillas, frutos secos, lácteos y dulces, en el barrio del Santuario.",
   location: {
     street: "Calle Real del Santuario #19-D",
     // TODO: afinar con el pin exacto de Google Maps
