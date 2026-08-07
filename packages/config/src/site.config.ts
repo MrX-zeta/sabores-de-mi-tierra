@@ -12,6 +12,8 @@ export const site = {
     "Semillas, frutos secos, lácteos y dulces, en el barrio del Santuario de San Cristóbal.",
   location: {
     street: "Calle Real del Santuario #19-D",
+    // TODO: afinar con el pin exacto de Google Maps
+    geo: { lat: 16.7439, lng: -92.6304 },
     neighborhood: "Barrio del Santuario",
     city: "San Cristóbal de las Casas",
     state: "Chiapas",

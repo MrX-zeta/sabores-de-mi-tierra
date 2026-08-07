@@ -5,6 +5,7 @@ import SvgDefs from "@/components/SvgDefs";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Fx from "@/components/Fx";
+import JsonLd from "@/components/JsonLd";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es" className={`${cormorant.variable} ${jost.variable}`}>
       <body>
+        <JsonLd />
         <SvgDefs />
         <Header />
         <main>{children}</main>
