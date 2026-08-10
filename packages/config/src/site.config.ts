@@ -3,10 +3,13 @@
  *  Único lugar a editar cuando se renombre la marca.
  *  (El logo vive aparte, como componente <Logo /> en web)
  */
-const businessName = "Sabores de mi Tierra";
+const businessName = "El Santuario Sabores de mi Tierra";
+/** Marca corta para espacios compactos (header móvil, referencias informales). */
+const shortName = "Sabores de mi Tierra";
 
 export const site = {
   businessName,
+  shortName,
   legalName: "Francisca Pérez Muñoz",
   tagline:
     "Semillas, frutos secos, lácteos y dulces, en el barrio del Santuario.",

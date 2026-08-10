@@ -43,7 +43,8 @@ export default function Footer() {
           <Link href="/" className="brand" aria-label={`${site.businessName}, inicio`}>
             <span className="brand-badge"><Espiga /></span>
             <span className="brand-name">
-              Sabores <span>de mi Tierra</span>
+              <span className="brand-arriba">El Santuario</span>
+              <span>Sabores de mi Tierra</span>
             </span>
           </Link>
           <nav className="footer-nav" aria-label="Navegación de pie de página">

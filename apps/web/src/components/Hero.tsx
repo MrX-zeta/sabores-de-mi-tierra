@@ -22,7 +22,7 @@ export default function Hero() {
         <div className="hero-sello hero-anim d1"><Espiga /></div>
         <p className="eyebrow eyebrow-c hero-anim d2">Productos regionales</p>
         <h1 className="hero-anim d3">
-          Sabores <em>de mi Tierra</em>
+          El Santuario, Sabores <em>de mi Tierra</em>
         </h1>
         <p className="hero-sub hero-anim d4">{site.tagline}</p>
         <div className="hero-cta hero-anim d5">

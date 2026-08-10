@@ -30,7 +30,8 @@ export default function Header() {
         <Link href="/" className="brand" aria-label={`${site.businessName}, inicio`}>
           <span className="brand-badge"><Espiga /></span>
           <span className="brand-name">
-            Sabores <span>de mi Tierra</span>
+            <span className="brand-arriba">El Santuario</span>
+            <span>Sabores de mi Tierra</span>
           </span>
         </Link>
         <nav className="nav" aria-label="Navegación principal">

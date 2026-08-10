@@ -122,7 +122,11 @@ h1 em, h2 em {
   box-shadow: inset 0 0 0 2px rgba(255, 253, 246, 0.35), 0 6px 14px rgba(30, 74, 44, 0.28);
 }
 .brand-badge svg { width: 20px; height: 20px; color: var(--oro-claro); }
-.brand-name { font-family: var(--f-display); font-size: 1.22rem; font-weight: 600; letter-spacing: 0.02em; }
+.brand-name { font-family: var(--f-display); font-size: 1.02rem; font-weight: 600; letter-spacing: 0.02em; display: flex; flex-direction: column; line-height: 1.05; }
+.brand-name .brand-arriba {
+  font-family: var(--f-display); font-size: 0.82em; font-weight: 700;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--verde-900);
+}
 .brand-name span {
   font-family: var(--font-mano); font-style: normal; font-weight: 600;
   font-size: 1.14em; color: var(--verde-700);
