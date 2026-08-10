@@ -21,6 +21,64 @@ export default function SvgDefs() {
             <path d="M32 40 L21 6" /><path d="M32 40 L32 2" /><path d="M32 40 L43 6" />
           </g>
         </symbol>
+        <symbol id="logo-espigas" viewBox="0 0 64 64">
+          <g transform="translate(-1.5 0)">
+            {/* tallos que convergen abajo */}
+            <g fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+              <path d="M33 58 C 32 55, 31.5 53, 31 50 C 29.5 40, 28.5 28, 30 16" />
+              <path d="M33.5 58 C 34.5 55, 35.5 52.8, 38 50 C 42 44, 48 36, 54 28.5" />
+            </g>
+            {/* espiga izquierda, casi vertical */}
+            <g fill="currentColor">
+              <g transform="translate(30.5 46) rotate(0)">
+                <path d="M0 1 C -4.4 0, -7 -4, -6.6 -9.5 C -2.2 -7.6, 0 -4, 0 1 Z" />
+                <path d="M0 1 C 4.4 0, 7 -4, 6.6 -9.5 C 2.2 -7.6, 0 -4, 0 1 Z" />
+              </g>
+              <g transform="translate(29.5 38) rotate(2)">
+                <path d="M0 1 C -4.4 0, -7 -4, -6.6 -9.5 C -2.2 -7.6, 0 -4, 0 1 Z" />
+                <path d="M0 1 C 4.4 0, 7 -4, 6.6 -9.5 C 2.2 -7.6, 0 -4, 0 1 Z" />
+              </g>
+              <g transform="translate(29 30) rotate(4)">
+                <path d="M0 1 C -4.4 0, -7 -4, -6.6 -9.5 C -2.2 -7.6, 0 -4, 0 1 Z" />
+                <path d="M0 1 C 4.4 0, 7 -4, 6.6 -9.5 C 2.2 -7.6, 0 -4, 0 1 Z" />
+              </g>
+              <g transform="translate(29.5 22) rotate(8)">
+                <path d="M0 1 C -4.4 0, -7 -4, -6.6 -9.5 C -2.2 -7.6, 0 -4, 0 1 Z" />
+                <path d="M0 1 C 4.4 0, 7 -4, 6.6 -9.5 C 2.2 -7.6, 0 -4, 0 1 Z" />
+              </g>
+              <g transform="translate(30.5 15.5) rotate(12)">
+                <path d="M0 1 C -2.6 -1.6, -3 -5.6, -1 -9.6 C 1.4 -6.4, 1.6 -2.8, 0 1 Z" />
+              </g>
+            </g>
+            {/* espiga derecha, doblada en abanico */}
+            <g fill="currentColor" opacity=".92">
+              <g transform="translate(40 48) rotate(36)">
+                <path d="M0 1 C -4.4 0, -7 -4, -6.6 -9.5 C -2.2 -7.6, 0 -4, 0 1 Z" />
+                <path d="M0 1 C 4.4 0, 7 -4, 6.6 -9.5 C 2.2 -7.6, 0 -4, 0 1 Z" />
+              </g>
+              <g transform="translate(43.8 42.8) rotate(42)">
+                <path d="M0 1 C -4.4 0, -7 -4, -6.6 -9.5 C -2.2 -7.6, 0 -4, 0 1 Z" />
+                <path d="M0 1 C 4.4 0, 7 -4, 6.6 -9.5 C 2.2 -7.6, 0 -4, 0 1 Z" />
+              </g>
+              <g transform="translate(47.4 37.6) rotate(48)">
+                <path d="M0 1 C -4.4 0, -7 -4, -6.6 -9.5 C -2.2 -7.6, 0 -4, 0 1 Z" />
+                <path d="M0 1 C 4.4 0, 7 -4, 6.6 -9.5 C 2.2 -7.6, 0 -4, 0 1 Z" />
+              </g>
+              <g transform="translate(51 32.5) rotate(54)">
+                <path d="M0 1 C -4.4 0, -7 -4, -6.6 -9.5 C -2.2 -7.6, 0 -4, 0 1 Z" />
+                <path d="M0 1 C 4.4 0, 7 -4, 6.6 -9.5 C 2.2 -7.6, 0 -4, 0 1 Z" />
+              </g>
+              <g transform="translate(54.5 27.5) rotate(58)">
+                <path d="M0 1 C -2.6 -1.6, -3 -5.6, -1 -9.6 C 1.4 -6.4, 1.6 -2.8, 0 1 Z" />
+              </g>
+            </g>
+            {/* hoja grande que abraza la izquierda + hoja baja a la derecha */}
+            <g fill="rgba(255, 253, 246, 0.88)">
+              <path d="M32 58.5 C 17.5 53, 10.5 37, 13.5 14 C 15.5 34, 22 50, 33 57.5 Z" />
+              <path d="M33.5 58.5 C 42 56.5, 50 50, 54 40 C 47.5 48, 40 53.5, 33 57.5 Z" />
+            </g>
+          </g>
+        </symbol>
         <symbol id="voluta" viewBox="0 0 280 26">
           <g fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
             <path d="M128 13 H36 C 24 13, 18 6, 24 3 C 29 1, 32 7, 27 9" />
